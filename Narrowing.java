@@ -1,4 +1,5 @@
-class Narrowing{
+class Narrowing
+{
 public static void main(String[] args)
 {
 float f=20.3f;
