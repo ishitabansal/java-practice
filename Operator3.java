@@ -1,5 +1,7 @@
-class Operator3{
-public static void main(String[] args){
+class Operator3
+{
+public static void main(String[] args)
+{
 int x=20;
 int y=-20;
 boolean a=true;
