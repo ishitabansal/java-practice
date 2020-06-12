@@ -6,3 +6,12 @@ navin:
 for(int a=1;a<=10;a++)
 {
 for(int b=1;b<=10;b++)
+{
+if(a==7)
+break navin;
+System.out.print("* ");
+}
+System.out.println("");
+}
+}
+}
