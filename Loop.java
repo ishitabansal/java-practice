@@ -9,3 +9,10 @@ System.out.println(a);
 a++;
 }
 
+do
+{
+System.out.println(a);
+a++;
+}
+while(a<10);
+
