@@ -6,7 +6,7 @@ public class Fibonacci
    i=0;
    x=1;
    y=1;
-   System.out.println("1 1");
+   System.out.println("1 1");                   //fibonacci series gives the sum of two previous numbers as the next number 
    while(i<=50)
    {
     i=x+y;
