@@ -4,7 +4,7 @@ public class Pattern4
   {
    for(int i=1;i<=5;i++)
    {
-    for(int j=1;j<=i;j++)
+    for(int j=1;j<=i;j++)           //j wil be prited according to the number of i in the loop
     {
      System.out.print(i+" ");
     }
