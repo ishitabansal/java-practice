@@ -2,13 +2,13 @@ public class Continue_forloop
 {
 public static void main(String[] args)
 {
-for(int i=1;i<=10;i++)
+for(int i=1;i<=10;i++)                                    //for loop
 {
-if(i==5)
+if(i==5)                                                 //if condition
 {
-continue;
+continue;                                                 //continue will help to skip the print of loop on the condition applied.
 }
-System.out.println(i);
+System.out.println(i);                                    //printing the values i
 }
 }
 }
