@@ -3,12 +3,12 @@ public class Continue_whileloop
 public static void main(String[] args)
 {
 int i=1;
-while(i<=10)
+while(i<=10)                                      //while condition
 {
-if(i==5)
+if(i==5)                                          //if condition
 {
 i++;
-continue;
+continue;                                          //continue will skip the if condition
 }
 System.out.println(i);
 i++;
