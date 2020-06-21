@@ -5,12 +5,12 @@ public static void main(String[] args)
 int i=1;
 do
 {
-if(i==5)
+if(i==5)                                             //if condition
 {
 i++;
-continue;
+continue;                                            //continue
 }
-System.out.println(i);
+System.out.println(i);                               //printing the values
 i++;
 }
 while(i<=10);
