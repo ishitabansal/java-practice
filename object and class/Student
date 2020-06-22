@@ -2,9 +2,9 @@ class Student
 {
 int id;
 String name;
-public static void main(String args[])
+public static void main(String args[])                 //main method
 {
-Student s1=new Student();
+Student s1=new Student();                             //object of class
 System.out.println(s1.id);
 System.out.println(s1.name);
 }
