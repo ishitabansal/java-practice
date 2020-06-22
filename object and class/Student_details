@@ -1,0 +1,7 @@
+class Student_details
+{
+int id;
+String name;
+}
+class TestStudent1
+{
