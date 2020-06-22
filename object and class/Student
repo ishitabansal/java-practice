@@ -1,4 +1,4 @@
-class Student
+class Student                                         //main is inside the class
 {
 int id;
 String name;
