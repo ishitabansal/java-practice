@@ -1,13 +1,13 @@
-class Student_inirefrence
+class Student_inirefrence                                //initialisation through reference
 {
 int id;
 String name;
 }
-class TestStudent
+class TestStudent                                       //class containing main method
 {
-public static void main(String args[])
+public static void main(String args[])                  //main method outside the class
 {
-Student s1=new Student();
+Student s1=new Student();                               //objects of class
 Student s2=new Student();
 s1.id=124;
 s1.name="Ishita";
