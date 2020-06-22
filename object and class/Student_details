@@ -1,9 +1,9 @@
-class Student_details
+class Student                                 //main method is out of class
 {
 int id;
 String name;
 }
-class TestStudent1
+class Student_details                                     //class containing main method
 {
 public static void main(String[] args)
 {
