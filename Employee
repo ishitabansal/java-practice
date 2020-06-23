@@ -3,3 +3,9 @@ class Employee
 int id;
 String name;
 float salary;
+void insert(int i,String n,float f)
+{
+id=i;
+name=n;
+salary=f;
+}
