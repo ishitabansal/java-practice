@@ -12,3 +12,8 @@ void displayinfo()
 System.out.println(rollno+" "+name);
 }
 }
+void displayinfo()
+{
+System.out.println(rollno+" "+name);
+}
+}
