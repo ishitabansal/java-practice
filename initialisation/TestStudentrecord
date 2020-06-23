@@ -17,3 +17,15 @@ void displayinfo()
 System.out.println(rollno+" "+name);
 }
 }
+class TestStudentrecord
+{
+public static void main(String args[])
+{
+Studentrecord s1=new Studentrecord();
+Studentrecord s2=new Studentrecord();
+s1.insertrecord(105,"ishita");
+s2.insertrecord(205,"rashmi");
+s1.displayinfo();
+s2.displayinfo();
+}
+}
