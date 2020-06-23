@@ -9,3 +9,10 @@ id=i;
 name=n;
 salary=f;
 }
+void display()
+{System.out.println(id+" "+name+" "+salary);}
+}
+class Employeerecord
+{
+public static void main(String args[])
+{
