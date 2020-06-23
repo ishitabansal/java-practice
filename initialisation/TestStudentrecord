@@ -7,3 +7,8 @@ void insertrecord(int r, String n)
 rollno=r;
 name=n;
 }
+void displayinfo()
+{
+System.out.println(rollno+" "+name);
+}
+}
