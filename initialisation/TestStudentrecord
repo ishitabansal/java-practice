@@ -1,0 +1,9 @@
+class Studentrecord
+{
+int rollno;
+String name;
+void insertrecord(int r, String n)
+{
+rollno=r;
+name=n;
+}
