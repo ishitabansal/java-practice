@@ -22,3 +22,8 @@ Employee e3=new Employee();
 e1.insert(101,"Arohi",45000);
 e2.insert(102,"Rishi",50000);
 e3.insert(103,"Rashmi",30000);
+e1.display();
+e2.display();
+e3.display();
+}
+}
