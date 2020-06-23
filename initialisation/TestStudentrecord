@@ -2,12 +2,12 @@ class Studentrecord
 {
 int rollno;
 String name;
-void insertrecord(int r, String n)
+void insertrecord(int r, String n)                               //class for inserting values
 {
 rollno=r;
 name=n;
 }
-void displayinfo()
+void displayinfo()                                              //class for displaying values
 {
 System.out.println(rollno+" "+name);
 }
@@ -17,7 +17,7 @@ void displayinfo()
 System.out.println(rollno+" "+name);
 }
 }
-class TestStudentrecord
+class TestStudentrecord                                        
 {
 public static void main(String args[])
 {
