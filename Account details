@@ -4,20 +4,20 @@ int acc_no;
 String name;
 float amount;
 
-void insert(int a,String n,float amt)
+void insert(int a,String n,float amt)                          //class for inserting the details of customer
 {
 acc_no=a;
 name=n;
 amount=amt;
 }
 
-void deposit(float amt)
+void deposit(float amt)                                        //class for depositing money
 {
 amount=amount+amt;
 System.out.println(amt+" deposited");
 }
 
-void withdraw(float amt)
+void withdraw(float amt)                                      //class for withdrawing money
 {
 if(amount<amt)
 {System.out.println("insuffiecient balance");}
@@ -28,16 +28,16 @@ System.out.println(amt+" withdrawn");
 }
 }
 
-void checkbalance()
+void checkbalance()                                         //class for displaying the balance
 {System.out.println("balance is "+amount);}
 
-void display()
+void display()                                             //class for displaying the account details
 {System.out.println(acc_no+" "+name+" "+amount);}
 }
 
-class TestAccount
+class TestAccount                                         //class for main method
 {
-public static void main(String args[])
+public static void main(String args[])                   //main method
 {
 Account a1=new Account();
 a1.insert(9876543,"Rohan",20000);
