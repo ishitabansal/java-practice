@@ -5,12 +5,12 @@ void fact(int n)
 int fact=1;
 for(int i=1;i<=n;i++)
 {
-fact=fact*i;
+fact=fact*i;                                              //factorial
 }
 System.out.println("factorial is" +fact);
 }
 public static void main(String args[])
 {
-new Anonymous_object().fact(5);
+new Anonymous_object().fact(5);                           //anonymous object
 }
 }
