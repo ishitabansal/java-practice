@@ -3,13 +3,13 @@ public class Loop
 public static void main(String[] args)
 {
 int a=5;
-while(a<10)
+while(a<10)                                      //while condition
 {
 System.out.println(a);
 a++;
 }
 
-do
+do                                              //do while condition
 {
 System.out.println(a);
 a++;
