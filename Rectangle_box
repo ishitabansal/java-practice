@@ -9,3 +9,8 @@ length=l;
 width=w;
 height=h;
 }
+void perimeter()
+{
+System.out.println(2(length*breadth*height));
+}
+}
