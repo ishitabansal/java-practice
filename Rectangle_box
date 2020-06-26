@@ -4,24 +4,24 @@ int length;
 int width;
 int height;
 
-void dimensions(int l,int w,int h)
+void dimensions(int l,int w,int h)                   //class for inserting dimensions
 {
 length=l;
 width=w;
 height=h;
 }
 
-void perimeter()
+void perimeter()                                   //class for calculating perimeter
 {
 System.out.println(2*(length*width*height));
 }
 }
 
-class Rectangle_box
+class Rectangle_box                              //class for main method
 {
-public static void main(String args[])
+public static void main(String args[])           //main method
 {
-Rectangle r1=new Rectangle();
+Rectangle r1=new Rectangle();                    //objects of rectangle class
 Rectangle r2=new Rectangle();
 r1.dimensions(20,40,10);
 r1.perimeter();
