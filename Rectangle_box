@@ -3,17 +3,20 @@ class Rectangle
 int length;
 int width;
 int height;
+
 void dimensions(int l,int w,int h)
 {
 length=l;
 width=w;
 height=h;
 }
+
 void perimeter()
 {
-System.out.println(2(length*breadth*height));
+System.out.println(2*(length*width*height));
 }
 }
+
 class Rectangle_box
 {
 public static void main(String args[])
