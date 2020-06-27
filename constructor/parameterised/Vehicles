@@ -7,3 +7,7 @@ Vehicles(int x,String y)
 vehicle_no=x;
 vehicle_name=y;
 }
+void display()
+{
+System.out.println(vehicle_no+" "+vehicle_name);
+}
