@@ -1,0 +1,8 @@
+class Vehicle
+{
+int vehicle_no;
+String vehicle_name;
+void display()
+{
+System.out.println(vehicle_no+" "+vehicle_name);
+}
