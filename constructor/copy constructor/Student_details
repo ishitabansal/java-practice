@@ -12,3 +12,7 @@ Student_details(Student_details s)
 id=s.id;
 name=s.name;
 }
+void display()
+{
+System.out.println(id+" "+name);
+}
