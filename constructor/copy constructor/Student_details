@@ -2,12 +2,12 @@ class Student_details
 {
 int id;
 String name;
-Student_details(int i,String n)
+Student_details(int i,String n)                          //constructor of the class
 {
 id=i;
 name=n;
 }
-Student_details(Student_details s)
+Student_details(Student_details s)                      //copy constructor
 {
 id=s.id;
 name=s.name;
