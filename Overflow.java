@@ -1,6 +1,6 @@
 class Overflow
 {
-  public static void main(String[] args)
+  public static void main(String[] args)   //main function
   {
    int a=200;
    byte b=(byte) a;
