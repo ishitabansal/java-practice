@@ -1,6 +1,6 @@
 public class Continue_dowhile
 {
-public static void main(String[] args)
+public static void main(String[] args)   //define main function
 {
 int i=1;
 do
