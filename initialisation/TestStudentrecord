@@ -25,7 +25,7 @@ Studentrecord s1=new Studentrecord();                           //objects of cla
 Studentrecord s2=new Studentrecord(); 
 s1.insertrecord(105,"ishita");
 s2.insertrecord(205,"rashmi");
-s1.displayinfo();
+s1.displayinfo();                             //call displayinfo function
 s2.displayinfo();
 }
 }
