@@ -1,6 +1,6 @@
 class Narrowing
 {
-public static void main(String[] args)
+public static void main(String[] args)    //define main function
 {
 float f=20.3f;      //declare the variables
 int a=(int)f;
