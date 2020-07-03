@@ -8,3 +8,9 @@ static void change()
 {
 company="casting ltd";
 }
+
+Employee(int e, String n)
+{
+emp_id=e;
+name=n;
+}
