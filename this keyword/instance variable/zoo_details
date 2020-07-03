@@ -27,3 +27,6 @@ z1.display();
 z2.display();
 }
 }
+
+
+//this keyword is used when parameters and the instance variables are same 
