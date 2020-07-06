@@ -1,7 +1,7 @@
 class Employee{  
  float salary=30000;  
 }
-class Programmer extends Employee{  
+class Programmer extends Employee{                                    //extends is used in inheritence to acquire the properties of other class
  int bonus=60000;  
  public static void main(String args[]){ 
 Programmer p=new Programmer();  
