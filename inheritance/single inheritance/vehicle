@@ -5,11 +5,11 @@ void four_wheeler()
 System.out.println("this is a car");
 }
 }
-class Scooty extends Vehicle
+class car extends Vehicle
 {
-void activa()
+void fortuner()
 {
-System.out.println("activa 4g");
+System.out.println("fortuner base model");
 }
 }
 class TestInheritance
