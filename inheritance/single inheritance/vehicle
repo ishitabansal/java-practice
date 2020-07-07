@@ -1,8 +1,8 @@
 class Vehicle
 {
-void two_wheeler()
+void four_wheeler()
 {
-System.out.println("this is a scooty");
+System.out.println("this is a car");
 }
 }
 class Scooty extends Vehicle
