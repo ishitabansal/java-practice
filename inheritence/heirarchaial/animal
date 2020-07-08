@@ -12,7 +12,7 @@ void bark()
 System.out.println("barking");
 }
 }
-class cat extends Animal
+class cat extends Animal                                      //many classes can be subclasses of a single super class
 {
 void meow()
 {
