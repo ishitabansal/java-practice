@@ -1,3 +1,4 @@
+//bank details
 class Bank
 {
 float Rateofinterest()
