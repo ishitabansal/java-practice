@@ -5,32 +5,36 @@ int Rateofinterest()
 return 0;
 }
 }
-class SBI extends Bank
+
+class SBI extends Bank                                       //inherited class
 {
 int Rateofinterest()
 {
 return 9;
 }
 }
-class AXIS extends Bank
+
+class AXIS extends Bank                                     //inherited class
 {
 int Rateofinterest()
 {
 return 6;
 }
 }
-class ICICI extends Bank
+
+class ICICI extends Bank                                   //inherited class
 {
 int Rateofinterest()
 {
 return 8;
 }
 }
+
 class Balance 
 {
 public static void main(String args[])
 {
-SBI s=new SBI();
+SBI s=new SBI();                                                               //objects of the inherited classes
 AXIS a=new AXIS();
 ICICI i=new ICICI();
 System.out.println("SBI Rate of interest is:"+s.Rateofinterest());
