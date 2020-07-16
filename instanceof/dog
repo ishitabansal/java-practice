@@ -12,7 +12,7 @@ System.out.println("ol");
 }
 public static void main(String args[])
 {
-Animal a=new Dog();
+Animal a=new Dog();                                            //object of the class
 Dog.method(a);
 }
 } 
